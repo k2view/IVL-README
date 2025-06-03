@@ -500,10 +500,10 @@ start**, **GET execution**, and **processing completion**.
 
 #### **Consumer Stats Globals:**
 
-- IVL_SKIPPED_IIDS_STATS = "true"; If set to true, logs of skipped IIDs
+- IVL_SKIPPED_IIDS_STATS: If set to true, logs of skipped IIDs
   gets are recorded in the IID Consumer detailed_stats table.
 
-- IVL_STATS_ACTIVE = "true"; If set to true, IID Consumer stats are
+- IVL_STATS_ACTIVE: If set to true, IID Consumer stats are
   logged to the detailed_stats table and current stats MTable.
 
 ## Step 6: Deploy Added/Updated Logical Units
