@@ -500,11 +500,9 @@ start**, **GET execution**, and **processing completion**.
 
 #### **Consumer Stats Globals:**
 
-- IVL_SKIPPED_IIDS_STATS: If set to true, logs of skipped IIDs
-  gets are recorded in the IID Consumer detailed_stats table.
+- IVL_STATS_ACTIVE: true/false – Determines whether consumer statistics should be logged within the IID Consumer logic. When enabled, the logged data will be displayed on the IID Consumer page in the Investigator Library.
 
-- IVL_STATS_ACTIVE: If set to true, IID Consumer stats are
-  logged to the detailed_stats table and current stats MTable.
+- IVL_SKIPPED_IIDS_STATS: true/false – Determines whether skipped GET executions should be captured within the IID Consumer logic. When enabled, these records will also be displayed on the IID Consumer page in the Investigator Library.
 
 ## Step 6: Deploy Added/Updated Logical Units
 
